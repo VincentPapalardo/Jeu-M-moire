@@ -1,0 +1,40 @@
+
+.card {
+    background-color: #0066ff;
+    height: 150px;
+    width: 150px;
+}
+
+.cardWin {
+  background-color: #ff0000;
+  height: 150px;
+  width: 150px;
+}
+
+.card {
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+  }
+  
+  .front, .back {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+  }
+  
+  .back {
+    transform: rotateY(180deg);
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+  }
+  
+
+  
